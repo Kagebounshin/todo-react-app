@@ -1,1 +1,16 @@
+* {
+  background-color: rgb(51, 51, 45);
+  color: rgb(228, 228, 54);
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+  letter-spacing: .1rem;
+}
+
+.App h1 {
+  font-size: 3.5rem;
+}
+
 
