@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 function TodoList() {
     const [todos, setTodos] = useState([]);
     const [inputValue, setInputValue] = useState('');
-
+    
     function handleChange(e) {
         setInputValue(e.target.value)
     };
-
+    //Submit input value
     function handleSubmit(e) {
         e.preventDefault()
         setTodos([...todos, inputValue])
         setInputValue('')
     }
-
+    // Delete todo items
     function handleDelete(index) {
         const newTodos = [...todos]
         newTodos.splice(index, 1)

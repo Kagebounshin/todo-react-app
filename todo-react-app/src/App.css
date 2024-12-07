@@ -1,5 +1,5 @@
 * {
-  background-color: #8B645C;
+  background-color: #243E36;
   color: #FEF5EF;
 }
 
@@ -23,12 +23,29 @@ li {
 }
 
 .App button {
-  background-color: #3B0229;
+  background-color: #243E36;
   font-weight: 700;
   border: none;
-  border-radius: .1rem;
+  border-radius: 5px;
   margin-left: 1rem;
   text-transform: uppercase;
+  box-shadow:3px -3px 3px #4f03370c;
+  border: 3px solid #FEF5EF;
 }
 
+form input {
+  border-radius: 5px;
+  border: 3px solid #FEF5EF;
+  box-shadow:3px -3px 3px #4f033700;
+}
+
+form input,
+button {
+  height: 2rem;
+}
+
+button:hover {
+  transition: 2ms ease-in-out; 
+  background-color: #4C6663;
+}
 
