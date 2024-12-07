@@ -11,6 +11,19 @@
 
 .App h1 {
   font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.App button {
+  background-color: rgb(228, 228, 54);
+  color: rgb(51, 51, 45);
+  font-weight: 700;
+  border: none;
+  border-radius: .1rem;
 }
 
 
