@@ -1,12 +1,12 @@
 * {
-  background-color: rgb(51, 51, 45);
-  color: rgb(228, 228, 54);
-  font-family: 'Roboto', sans-serif;
+  background-color: #8B645C;
+  color: #FEF5EF;
 }
 
 .App {
   text-align: center;
   letter-spacing: .1rem;
+  /* border: 4px solid rgb(228, 228, 54); */
 }
 
 .App h1 {
@@ -18,12 +18,18 @@ ul {
   list-style: none;
 }
 
+li {
+  margin-top: 1rem;
+}
+
 .App button {
-  background-color: rgb(228, 228, 54);
-  color: rgb(51, 51, 45);
+  background-color: #200116;
+  color: #8B645C;
   font-weight: 700;
   border: none;
   border-radius: .1rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
 }
 
 
